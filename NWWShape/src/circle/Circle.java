@@ -1,4 +1,6 @@
-package shape;
+package circle;
+
+import shape.AbstractShape;
 
 public class Circle extends AbstractShape {
 

@@ -1,4 +1,6 @@
-package shape;
+package square;
+
+import shape.AbstractShape;
 
 public class Square extends AbstractShape {
 	

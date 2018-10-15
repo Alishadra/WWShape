@@ -1,4 +1,5 @@
-package shape;
+package triangle.java;
+import shape.AbstractShape;
 
 public class Triangle extends AbstractShape {
 	
