@@ -5,7 +5,7 @@ import shape.AbstractShape;
 public class Circle extends AbstractShape {
 
 
-	private int radius;
+	int radius;
 	
 	public int getArea() {
 		
