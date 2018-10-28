@@ -29,17 +29,28 @@ public class AppCollectionRunner {
 		shapes.add(circle);
 		shapes.add(square);
 		
-		int maxShapes;
+		Shape maxShapes = shapes.get(0);
 		
 		for(int i = 0; i< shapes.size(); i++) {
 				if (maxShapes.getArea() >= shapes.get(i).getArea()) {
 					
-					maxShapes = shapes.get(i).getArea();
+					maxShapes = shapes.get(i);
 				}
 				
 			}
 			
 		logger.info(String.valueOf(maxShapes));
+		
+		for(int i = 0; i< shapes.size(); i++) {
+			if (maxShapes.getArea() <= shapes.get(i).getArea()) {
+				
+				maxShapes = shapes.get(i);
+			}
+			
+		}
+		
+	logger.info(String.valueOf(maxShapes));
+
 		
 		}
 		
